@@ -1,7 +1,5 @@
 pipeline{
-    agent {
-        label 'ubuntu_node'
-    }
+    agent any
     tools{
         maven 'mymaven'
     }
